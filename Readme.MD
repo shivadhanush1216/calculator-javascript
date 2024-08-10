@@ -43,12 +43,14 @@ To run this project locally, follow these steps:
    ```bash
    cd calculator-project
    ```
-3. Usage
+
+## Usage
 
 Open the calculator in your web browser.
 Click the buttons to perform calculations.
 Use the "AC" button to clear the display.
 The calculator supports decimal input and displays results accordingly.
 
-4. Contributing
-   Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
