@@ -1,0 +1,86 @@
+/* Style.css */
+
+/*  Body */
+body {
+  background: linear-gradient(to top right, #e0542d, #e7c57a, #ed9c45, #987365);
+}
+
+/*  */
+.calculate {
+  background-color: #191918;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  width: 350px;
+}
+
+/* Style for Display Result */
+.display {
+  background-color: #000;
+  color: rgb(243, 253, 253);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for buttons by class name */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.btn {
+  margin: 10px;
+  border: solid 2px transparent;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(80, 153, 216);
+}
+
+/* Style for Operators Buttons */
+.operator {
+  background-color: #dfe82a;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 55px;
+}
+
+/* Style for all buttons */
+button {
+  background-color: #222;
+  color: rgb(80, 153, 216);
+  border: none;
+  padding: 15px;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 0 5px rgba(255, 0, 255, 0.5);
+}
+
+/* Style for all buttons on hover */
+button:hover {
+  background-color: #0ff;
+  color: #000;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+}
+
+.btn:hover {
+  color: rgb(201, 170, 170);
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+}
+
+/* Style for span-two-rows */
+.span-two-rows {
+  grid-row: span 2;
+  height: 100%;
+}

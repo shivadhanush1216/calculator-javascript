@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="d-flex flex-column justify-content-center align-items-center vh-100"
+  >
+    <h1 class="text-center mb-5">Calculator</h1>
+    <!-- Main Div -->
+    <div class="calculate">
+      <!-- To Display Result -->
+      <div class="display" id="display">0</div>
+      <!-- To Display Buttons -->
+      <div class="buttons" id="buttons">
+        <!-- Buttons -->
+        <button class="operator" value="clear">AC</button>
+        <button class="operator" value="square">X²</button>
+        <button class="operator" value="divide">/</button>
+        <button class="operator span-two-rows" value="add">+</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="operator" value="subtract">-</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="operator" value="multiply">*</button>
+        <button class="operator" value="modulo">%</button>
+        <button class="btn" value="0">0</button>
+        <button class="operator" value="decimal">.</button>
+        <button class="operator" value="calculate">=</button>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
