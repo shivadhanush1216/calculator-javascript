@@ -13,7 +13,7 @@ A simple calculator built with HTML, CSS, JavaScript, and Bootstrap. This projec
 
 ## Demo
 
-[Live Demo](https://sprightly-faun-de32bc.netlify.app)
+[Live Demo](https://calculator-javascript-bootstarp.netlify.app/)
 
 ## Features
 
