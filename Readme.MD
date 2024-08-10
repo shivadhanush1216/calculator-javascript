@@ -13,7 +13,7 @@ A simple calculator built with HTML, CSS, JavaScript, and Bootstrap. This projec
 
 ## Demo
 
-[Live Demo](link-to-your-live-demo)
+[Live Demo](https://sprightly-faun-de32bc.netlify.app)
 
 ## Features
 
@@ -54,3 +54,5 @@ The calculator supports decimal input and displays results accordingly.
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
+![Calculator Screenshot](image.png)
